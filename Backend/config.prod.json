@@ -1,0 +1,10 @@
+{
+    "env": "prod",
+    "port": "4400",
+    "staticPath": "../FrontEnd",
+    "mongo": {
+        "url": "",
+        "userName": "",
+        "password": ""
+    }
+}

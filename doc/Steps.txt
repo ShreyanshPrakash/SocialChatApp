@@ -30,4 +30,12 @@ Categories of work :
 5. Create reducer,store,,,etc
 6. cretae necessary models
 
+UI shell is completed : took 1 hr
+
+Starting with BackEnd
+
+7. Create a static server
+8. Create models for BackEnd
+9. Use .env file for envs
+
     
