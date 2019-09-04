@@ -1,0 +1,13 @@
+
+
+
+1. Thread Blocking:
+    If i have new users joining chat, can the server still respond to the api and static file requests
+
+2. Use cluster module to scale the nodejs app
+
+3. If same user connects twice ?
+    - i can use Ip address to get the info 
+    - i can use cookies to get the info
+    - user can use multiple browser/tabs
+

@@ -1,0 +1,33 @@
+
+Categories of work :
+
+- Get the code setup : 1hr
+- Login/Register : 1hr
+- PWA/Notification : 1hr
+- Push NOtification : 1hr
+- Chat : 1hr
+- Frined Request - accept/reject : 2hrs
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+1. Initialize the react project.
+
+    npm init -y
+    npm install 
+    take the package.json from other repo and webpack.config.js files
+
+
+2. Directory structure.
+
+    When i will buil the ui code, it will be done in dist folder/ForntEnd
+    Then when i will run server, it will copy the BackEnd folder into dist and then run the server.js files
+    Hence all the files inside the FrontEnd will be served statically.
+
+3. Create index.js to attach the app to dom
+4. Create app.js to bootstrap the application
+5. Create reducer,store,,,etc
+6. cretae necessary models
+
+    
