@@ -1,9 +1,9 @@
 
 Categories of work :
 
-- Get the code setup : 1hr
-- Login/Register : 1hr
-- PWA/Notification : 1hr
+- Get the code setup : 1hr                  -- finished, took 1.5hrs
+- Login/Register : 1hr                      
+- PWA/Notification : 1hr                    -- finished, took 2 hrs.
 - Push NOtification : 1hr
 - Chat : 1hr
 - Frined Request - accept/reject : 2hrs

@@ -21,8 +21,16 @@ app.use(
 
 
 // Serving index file
-app.get( '*', (req,res) => {
+// how to handle error for file not found
+app.get( 'serviceWorker.js', (req,res) => {
 
+    fs.createReadStream(
+        path.join( __dirname, config.static, 'service.worker.js')
+    ).pipe( res );
+
+})
+app.get( '*', (req,res) => {
+    
     fs.createReadStream(
         path.join( __dirname, config.staticPath , 'index.html')
     ).pipe(res);

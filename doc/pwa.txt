@@ -1,0 +1,12 @@
+for pwa following criterias to be met :
+- service worker
+- https/localhost
+- manifest file
+- redirect http traffic to https
+- min 192px and 512px icons
+- meta tags in index.html
+
+If all these are met, and app has not been installed before, "beforeInstallPrompt" event is triggered.
+U can show a banner here on click of which event.propmpt() is to be executed which will give "install" option
+
+Now, install event is triggered and u can catche initial assets
